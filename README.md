@@ -1,3 +1,5 @@
+Written by Nguyễn Tiến Đạt
+
 # Todo & Note Manager App
 
 Một ứng dụng di động quản lý công việc và ghi chú cá nhân mạnh mẽ được xây dựng bằng **Flutter**, áp dụng các tiêu chuẩn **Clean Architecture** để đảm bảo khả năng mở rộng và dễ dàng bảo trì.
@@ -35,31 +37,4 @@ lib/
 └── main.dart         📍 Điểm vào (Entry Point) của toàn bộ ứng dụng
 ```
 
-## ⚙️ Hướng dẫn cài đặt & Khởi chạy
 
-**1. Clone dự án về máy:**
-```bash
-git clone <đường-dẫn-repo-của-bạn>
-cd to_do_list
-```
-
-**2. Cài đặt các thư viện (Dependencies):**
-```bash
-flutter pub get
-```
-
-**3. Tạo tự động các file code (BẮT BUỘC):**
-Dự án có sử dụng `riverpod_generator` và `drift_dev`, bạn phải chạy lệnh build runner để tạo ra các file logic trước khi chạy code:
-```bash
-flutter pub run build_runner build --delete-conflicting-outputs
-```
-*(Hoặc `dart run build_runner watch` nếu đang trong quá trình phát triển liên tục).*
-
-**4. Khởi chạy ứng dụng:**
-Cắm thiết bị hoặc bật máy ảo và chạy:
-```bash
-flutter run
-```
-
----
-*Được phát triển với phong cách tối ưu hiệu suất và mang lại UX mượt mà nhất cho người sử dụng.*
